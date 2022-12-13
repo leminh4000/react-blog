@@ -1,0 +1,20 @@
+
+###POST comment
+POST http://localhost:4001/posts/1234/comments HTTP/1.1
+content-type: application/json
+
+{
+  "content": "1 comment"
+}
+
+###GET comment
+GET http://localhost:4001/posts/7771047d/comments HTTP/1.1
+content-type: application/json
+
+###POST comment
+POST http://localhost:4001/events HTTP/1.1
+content-type: application/json
+
+{
+  "type": "comment"
+}

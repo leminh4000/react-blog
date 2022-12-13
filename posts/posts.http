@@ -1,0 +1,21 @@
+
+###POST posts
+POST http://localhost:4000/posts HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Second Post"
+}
+
+###POST posts
+POST http://localhost:4000/posts HTTP/1.1
+content-type: application/json
+
+{
+  "title": "First Post"
+}
+
+###GET posts
+GET http://localhost:4000/posts HTTP/1.1
+content-type: application/json
+
